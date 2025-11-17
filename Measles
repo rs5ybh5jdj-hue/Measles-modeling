@@ -1,0 +1,16 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# ---------------------------------------------------------------------------
+### DATASETS ###
+# ---------------------------------------------------------------------------
+
+## Reported cases of measles
+# World Health Organization
+reported_cases_WHO = pd.read_csv("C:/Users/Joséphine/OneDrive - UCL/Master 1/Process modelling/Projet - measles/Measles reported cases WHO.csv", encoding='utf-8', sep=";")
+print(reported_cases_WHO.head())
+
+# Our World in Data
+reported_cases_OWID = pd.read_csv("C:/Users/Joséphine/OneDrive - UCL/Master 1/Process modelling/Projet - measles/reported-cases-of-measles OWD.csv")
+print(reported_cases_OWID.head())
