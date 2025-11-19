@@ -37,6 +37,10 @@ print(mcv2.head())
 ### PARAMETERS ###
 # ---------------------------------------------------------------------------
  
-# Average period of time after which they succumb to the infection
-gamma = 1/12
+# Average period of time infected remain infectious
+gamma = 1/5
+
+# Incubation period
+sigma = 1/12
  
+
